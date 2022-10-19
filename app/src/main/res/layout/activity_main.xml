@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/dicebgr">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trò chơi tài vận"
+        android:id="@+id/appText"
+        android:layout_marginEnd="14dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gTri"
+            android:text="Guest Number with Dice"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="200dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/taiXiu"
+            android:text="Tìu xải"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_above="@+id/gTri"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            />
+
+    <Button
+        android:id="@+id/rateUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gTri"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="-158dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/black"
+        android:text="Rate"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
